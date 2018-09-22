@@ -2,7 +2,6 @@ var Movie = Backbone.Model.extend({
 
   defaults: {
     like: true,
-    comparator: null
   },
 
   toggleLike: function() {
